@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.inicio {
+    background-color: rgb(164, 217, 236);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: hsl(0, 0%, 100%);
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+img {
+    width: 90%;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+.rodape {
+    /* flex-shrink: 0; */
+    /* padding: 30px; */
+    text-align: center;
+    background-color: rgb(164, 217, 236);
+
+}
